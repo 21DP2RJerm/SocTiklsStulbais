@@ -1,0 +1,15 @@
+soc tikls
+
+socialais tikls kur lietotaji uploado bildes/video
+ja cilvekam nepatik cita cilveka post var izaicinat uz saha macu
+izaicnatajs izvelas savu un pretinieka post kurs tiek likt deribas 
+saha maca zaudetaja posts tiek izdzests
+
+lietotajam katru dienu vajag izspelet vienu saha macu savdak lietotaja jaunakais post tiek izdzests
+viens cilveks var citu izaicinat uz saha macu vienreiz diena
+bereal funkcija katru dienu vajag uztaisit bildi lai lietotajiem ir pietiekoss bilzu skaits sahu maciem
+
+sodi par maca zaudesanu:
+posts izdzests
+post kavalitates samazinasana
+banots uz nedelu
