@@ -13,3 +13,12 @@ sodi par maca zaudesanu:
 posts izdzests
 post kavalitates samazinasana
 banots uz nedelu
+
+
+3 menu apaksa - home, search, profile
+
+home feed rada posts visus kam tu seko, ja lietotajs taja diena nav ievietojis post home feed vieta ir tikai poga kas vaica ievietot savu post
+home feed lidzigs insta kur scroll uz leju un pie katra post ir like opcija un challange opcija
+tas atver jaunu menu kur lietotajs izvelas savu postu kuru liks deribas un kads bus zaudetaam sods
+pec tam ir challange overview kur apkopota informacija par challange (posts, challange cilveks utt)
+un tad tiek nosutits citam lietotajam
