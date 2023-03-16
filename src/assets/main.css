@@ -22,7 +22,11 @@
 body{
     margin: 0;
     padding: 0;
-    border: none;
+    min-height: 100vh;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .font-head{
