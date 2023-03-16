@@ -79,8 +79,6 @@
       border-radius: 0;
       top: 0;
     }
-
-
   }
 
 </style>

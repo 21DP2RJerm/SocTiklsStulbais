@@ -25,7 +25,6 @@
     --fs-smallest: 12px;
     --fs-regular: 16px;
     --fs-bold: 26px;
-    --fs-header: 48px;
   }
 
 body{
@@ -39,12 +38,6 @@ body{
 }
 
 .font-head{
-    font-family: var(--ff-head);
-    font-weight: var(--fw-bold);
-    font-size: var(--fs-header);
-}
-
-.font-smaller-head{
     font-family: var(--ff-head);
     font-weight: var(--fw-bold);
     font-size: var(--fs-bold);
