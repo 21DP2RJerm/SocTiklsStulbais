@@ -39,5 +39,5 @@ body{
 }
 .font-small{
     font-family: var(--ff-body);
-    font-weight: var(--fw-smallest);
+    font-weight: var(--fw-smallest)
 }
