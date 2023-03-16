@@ -8,7 +8,7 @@
   </header>
 
   <main>
-
+    sveika pasaule
   </main>
 
 </template>
