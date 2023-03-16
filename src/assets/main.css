@@ -1,0 +1,33 @@
+:root{
+    /* colors for everything */
+    --color-darkgreen : #17473E;
+    --color-mintgreen : #449183;
+    --color-black : #131515;
+    --color-background-white : #F8FCF6;
+    --color-background-accent-white: #F3FCF3;
+
+    /* fonts for everything */
+
+    --ff-primary : 'Open Sans', sans-serif;
+    --ff-head : var(--ff-primary);
+    --ff-body : var(--ff-primary);
+
+    /* font weight */
+
+    --fw-smallest: 300;
+    --fw-regular: 400;
+    --fw-bold: 600;
+  }
+
+.font-head{
+    font-family: var(--ff-head);
+    font-weight: var(--fw-bold);
+}
+.font-regular{
+    font-family: var(--ff-body);
+    font-weight: var(--fw-regular);
+}
+.font-small{
+    font-family: var(--ff-body);
+    font-weight: var(--fw-smallest);
+}
