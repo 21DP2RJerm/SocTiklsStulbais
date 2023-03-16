@@ -11,7 +11,7 @@
   <main>
     <div id="parent">
       <div id="mainContainer">
-        <input type="email" id="emailInput" class="usernameAndPasswordStyling" name="Email" placeholder="youremail@example.com">
+        <input type="email" id="emailInput" class="usernameAndPasswordStyling" name="Email" placeholder="youremail@example.com" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required />
         <input type="text" id="usernameInput" class="usernameAndPasswordStyling" name="Username" required minlength="4" maxlength="24" size="10" placeholder="Username">
         <input type="password" id="passwordInput" class="usernameAndPasswordStyling" name="Password" required minlength="8" maxlength="50" size="10" placeholder="Password">
         <input type="password" id="passwordInputConfirm" class="usernameAndPasswordStyling" name="Password" required minlength="8" maxlength="50" size="10" placeholder="Confirm password">
