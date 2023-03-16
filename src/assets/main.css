@@ -1,10 +1,12 @@
 :root{
     /* colors for everything */
-    --color-darkgreen : #17473E;
-    --color-mintgreen : #449183;
-    --color-black : #131515;
-    --color-background-white : #F8FCF6;
-    --color-background-accent-white: #F3FCF3;
+    --color-red : #BA494B;
+    --color-lightpink : #E5CBC1;
+    --color-lightyellow : #F0E7DA;
+    --color-blue : #A6B4B3;
+    --color-lightgray : #E3E4E0;
+
+    --color-background : var(--color-lightyellow);
 
     /* fonts for everything */
 
@@ -17,6 +19,13 @@
     --fw-smallest: 300;
     --fw-regular: 400;
     --fw-bold: 600;
+    
+    /* font size */
+
+    --fs-smallest: 12px;
+    --fs-regular: 16px;
+    --fs-bold: 26px;
+    --fs-header: 48px;
   }
 
 body{
@@ -32,12 +41,22 @@ body{
 .font-head{
     font-family: var(--ff-head);
     font-weight: var(--fw-bold);
+    font-size: var(--fs-header);
 }
+
+.font-smaller-head{
+    font-family: var(--ff-head);
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-bold);
+}
+
 .font-regular{
     font-family: var(--ff-body);
     font-weight: var(--fw-regular);
+    font-size: var(--fs-regular);
 }
 .font-small{
     font-family: var(--ff-body);
-    font-weight: var(--fw-smallest)
+    font-weight: var(--fw-smallest);
+    font-size: var(--fs-smallest);
 }
