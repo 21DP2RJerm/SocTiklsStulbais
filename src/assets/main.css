@@ -19,6 +19,12 @@
     --fw-bold: 600;
   }
 
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 .font-head{
     font-family: var(--ff-head);
     font-weight: var(--fw-bold);

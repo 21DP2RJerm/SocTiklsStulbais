@@ -8,7 +8,7 @@
   </header>
 
   <main>
-    
+    <p class="font-regular">sveika pasaule</p>
   </main>
 </template>
 
