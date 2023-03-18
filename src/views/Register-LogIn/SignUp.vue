@@ -79,6 +79,19 @@
       border-radius: 0;
       top: 0;
     }
+    .usernameAndPasswordStyling{
+      min-width: 270px;
+    }
+
+    #emailInput{top: 12.5rem;}
+    #usernameInput{top: 16rem;}
+    #passwordInput{top: 19.5rem;}
+    #passwordInputConfirm{top: 23rem;}
+
+    #signUpButton{
+      width: 160px;
+      top: 33rem;
+    }
   }
 
 </style>

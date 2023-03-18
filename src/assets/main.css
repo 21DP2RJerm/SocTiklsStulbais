@@ -1,55 +1,55 @@
 :root{
-    /* colors for everything */
-    --color-red : #BA494B;
-    --color-lightpink : #E5CBC1;
-    --color-lightyellow : #F0E7DA;
-    --color-blue : #A6B4B3;
-    --color-lightgray : #E3E4E0;
+  /* colors for everything */
+  --color-red : #BA494B;
+  --color-lightpink : #E5CBC1;
+  --color-lightyellow : #F0E7DA;
+  --color-blue : #A6B4B3;
+  --color-lightgray : #E3E4E0;
 
-    --color-background : var(--color-lightyellow);
+  --color-background : var(--color-lightyellow);
 
-    /* fonts for everything */
+  /* fonts for everything */
 
-    --ff-primary : 'Open Sans', sans-serif;
-    --ff-head : var(--ff-primary);
-    --ff-body : var(--ff-primary);
+  --ff-primary : 'Open Sans', sans-serif;
+  --ff-head : var(--ff-primary);
+  --ff-body : var(--ff-primary);
 
-    /* font weight */
+  /* font weight */
 
-    --fw-smallest: 300;
-    --fw-regular: 400;
-    --fw-bold: 600;
-    
-    /* font size */
+  --fw-smallest: 300;
+  --fw-regular: 400;
+  --fw-bold: 600;
+  
+  /* font size */
 
-    --fs-smallest: 12px;
-    --fs-regular: 16px;
-    --fs-bold: 26px;
-  }
+  --fs-smallest: 12px;
+  --fs-regular: 16px;
+  --fs-bold: 26px;
+}
 
 body{
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    line-height: 1.6;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .font-head{
-    font-family: var(--ff-head);
-    font-weight: var(--fw-bold);
-    font-size: var(--fs-bold);
+  font-family: var(--ff-head);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-bold);
 }
 
 .font-regular{
-    font-family: var(--ff-body);
-    font-weight: var(--fw-regular);
-    font-size: var(--fs-regular);
+  font-family: var(--ff-body);
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-regular);
 }
 .font-small{
-    font-family: var(--ff-body);
-    font-weight: var(--fw-smallest);
-    font-size: var(--fs-smallest);
+  font-family: var(--ff-body);
+  font-weight: var(--fw-smallest);
+  font-size: var(--fs-smallest);
 }
