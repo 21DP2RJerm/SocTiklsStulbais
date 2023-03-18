@@ -78,6 +78,7 @@
       height: 100vh;
       border-radius: 0;
       top: 0;
+      
     }
     .usernameAndPasswordStyling{
       min-width: 270px;
