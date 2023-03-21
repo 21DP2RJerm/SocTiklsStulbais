@@ -1,5 +1,9 @@
 <script>
-
+export default {
+  setup() {
+    
+  },
+}
 </script>
 
 <template>
@@ -24,7 +28,7 @@
   body{
     background : var(--color-background);
   }
-  #parent{
+  .parent{
     display: grid;
     place-items: center;
     margin: 0;

@@ -6,10 +6,11 @@ import { RouterLink, RouterView } from 'vue-router'
   <header>
     <div class="wrapper">
       <nav>
-        <Router-Link :to="{ name: 'home' }">Home|</Router-Link>
-        <Router-Link :to="{ name: 'profile' }">Personal Profile|</Router-Link>
-        <Router-Link :to="{ name: 'login' }">Log In|</Router-Link>
-        <Router-link :to="{ name: 'signup' }">Sign Up|</Router-link>
+          <Router-Link :to="{ name: 'home' }">Home|</Router-Link>
+          <Router-Link :to="{ name: 'profile' }">Personal Profile|</Router-Link>
+          <Router-Link :to="{ name: 'login' }">Log In|</Router-Link>
+          <Router-link :to="{ name: 'signup' }">Sign Up|</Router-link>
+          <Router-link :to="{ name: 'search' }">Search|</Router-link>
       </nav>
     </div>
   </header>
@@ -17,6 +18,6 @@ import { RouterLink, RouterView } from 'vue-router'
   <RouterView />
 </template>
 
-<style scoped>
+<style>
 
 </style>
