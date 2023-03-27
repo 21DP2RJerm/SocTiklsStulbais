@@ -33,7 +33,7 @@
     height: 500px;
     width: 550px;
     border-radius: 20px;
-    background-color: var(--color-red);
+    background-color: var(--color-container);
 
     position: relative;
     top: 200px;
