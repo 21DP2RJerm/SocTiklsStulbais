@@ -5,22 +5,42 @@
     <title>diknbols</title>
     <link rel="stylesheet" href="./sahs.css">
 </head>
+
+<!-- bandiniekam ja tiek lidz galam ideja nomainit klases nosaukumu uz piem gameboard home white/ gameboard home black un ja detecto bandinieku taja klase tad tod opciju promotot bandinieku uz citu kaulinu -->
+<!--8 linija -->
+<!-- izveidojot klases pie katra laucina tiek pielikts klat kaulins sava sakuma pozicija-->
+<!-- *kaulins*1 no *kaulins*2 atskiras ar to ka kaulini kas beidzas ar 1 atrodas kreisaja puse un tiek kas beidzas ar 2 labaj puse-->
 <body>
     <div id="gameboard">
-        <div class="square balts" ></div>
-        <div class="square melns" ></div>
-        <div class="square balts" ></div>
-        <div class="square melns" ></div>
+        <div class="square balts" >
+            <img src="bildes/rookB.png" alt="tornis" id="melnais tornis1" class="chess-piece" draggable="true">
+        </div>           
+        <div class="square melns" >
+            <img src="bildes/knightB.png" alt="zirgs" id="melnais zirgs1" class="chess-piece" draggable="true">
+        </div>
+        <div class="square balts" >
+            <img src="bildes/bishopB.png" alt="laidnis" id="melnais laidnis1" class="chess-piece" draggable="true">
+        </div>           
+        <div class="square melns" >
+            <img src="bildes/queenB.png" alt="karaliene" id="melna karaliene" class="chess-piece" draggable="true">
+        </div>           
         <div class="square balts" >
             <img src="bildes/chessKINGB.png" alt="karalis" id="melnais karalis" class="chess-piece" draggable="true">
         </div>
-        <div class="square melns" ></div>
-        <div class="square balts" ></div>
-        <div class="square melns" ></div>
+        <div class="square melns" >
+            <img src="bildes/bishopB.png" alt="laidnis" id="melnais laidnis2" class="chess-piece" draggable="true">
+        </div>            
+        <div class="square balts" >
+            <img src="bildes/knightB.png" alt="zirgs" id="melnais zirgs2" class="chess-piece" draggable="true">
+        </div>           
+        <div class="square melns" >
+            <img src="bildes/rookB.png" alt="tornis" id="melnais tornis2" class="chess-piece" draggable="true">
+        </div>
+            
     </div>  
-
+<!-- 7 linija-->
     <div id="gameboard">
-        <div class="square melns"></div>
+        <div class="square melns" ></div>
         <div class="square balts" ></div>
         <div class="square melns" ></div>
         <div class="square balts" ></div>
@@ -29,27 +49,7 @@
         <div class="square melns" ></div>
         <div class="square balts" ></div>
     </div>
-    <div id="gameboard">
-        <div class="square balts" ></div>
-        <div class="square melns" ></div>
-        <div class="square balts" ></div>
-        <div class="square melns" ></div>
-        <div class="square balts" ></div>
-        <div class="square melns" ></div>
-        <div class="square balts" ></div>
-        <div class="square melns" ></div>
-    </div>  
-
-    <div id="gameboard">
-        <div class="square melns"></div>
-        <div class="square balts" ></div>
-        <div class="square melns" ></div>
-        <div class="square balts" ></div>
-        <div class="square melns" ></div>
-        <div class="square balts" ></div>
-        <div class="square melns" ></div>
-        <div class="square balts" ></div>
-    </div>
+<!-- 6 linija -->
     <div id="gameboard">
         <div class="square balts" ></div>
         <div class="square melns" ></div>
@@ -60,7 +60,7 @@
         <div class="square balts" ></div>
         <div class="square melns" ></div>
     </div>  
-
+<!-- 5 linija -->
     <div id="gameboard">
         <div class="square melns"></div>
         <div class="square balts" ></div>
@@ -71,6 +71,29 @@
         <div class="square melns" ></div>
         <div class="square balts" ></div>
     </div>
+<!-- 4 linija -->
+    <div id="gameboard">
+        <div class="square balts" ></div>
+        <div class="square melns" ></div>
+        <div class="square balts" ></div>
+        <div class="square melns" ></div>
+        <div class="square balts" ></div>
+        <div class="square melns" ></div>
+        <div class="square balts" ></div>
+        <div class="square melns" ></div>
+    </div>  
+<!-- 3 linija -->
+    <div id="gameboard">
+        <div class="square melns"></div>
+        <div class="square balts" ></div>
+        <div class="square melns" ></div>
+        <div class="square balts" ></div>
+        <div class="square melns" ></div>
+        <div class="square balts" ></div>
+        <div class="square melns" ></div>
+        <div class="square balts" ></div>
+    </div>
+<!-- 2 linija -->
     <div id="gameboard">
         
         <div class="square balts" ></div>
@@ -82,16 +105,16 @@
         <div class="square balts" ></div>
         <div class="square melns" ></div>
     </div>  
-
+ <!-- 1 linija -->
     <div id="gameboard">
         <div class="square melns">
-            <img src="bildes/chessROOKW.png" alt="tornis" id="balts tornis" class="chess-piece" draggable="true">
+            <img src="bildes/chessROOKW.png" alt="tornis" id="balts tornis1" class="chess-piece" draggable="true">
         </div>
         <div class="square balts" >
-            <img src="bildes/chessKNIGHTW.png" alt="zirgs" id="balts zirgs" class="chess-piece" draggable="true">
+            <img src="bildes/chessKNIGHTW.png" alt="zirgs" id="balts zirgs1" class="chess-piece" draggable="true">
         </div>
         <div class="square melns" >
-            <img src="bildes/chessBISHOPW.png" alt="laidnis" id="balts laidnis" class="chess-piece" draggable="true">
+            <img src="bildes/chessBISHOPW.png" alt="laidnis" id="balts laidnis1" class="chess-piece" draggable="true">
         </div>
         <div class="square balts" >
             <img src="bildes/chessQUEENW.png" alt="karaliene" id="balta karaliene" class="chess-piece" draggable="true">
@@ -100,13 +123,13 @@
             <img src="bildes/chessKINGW.png" alt="karalis" id="baltais karalis" class="chess-piece" draggable="true">
         </div>
         <div class="square balts" >
-            <img src="bildes/chessBISHOPW.png" alt="laidnis" id="balts laidnis" class="chess-piece" draggable="true">
+            <img src="bildes/chessBISHOPW.png" alt="laidnis" id="balts laidnis2" class="chess-piece" draggable="true">
         </div>
         <div class="square melns" >
-            <img src="bildes/chessKNIGHTW.png" alt="zirgs" id="balts zirgs" class="chess-piece" draggable="true">
+            <img src="bildes/chessKNIGHTW.png" alt="zirgs" id="balts zirgs2" class="chess-piece" draggable="true">
         </div>
         <div class="square balts" >
-            <img src="bildes/chessROOKW.png" alt="tornis" id="balts tornis" class="chess-piece" draggable="true">
+            <img src="bildes/chessROOKW.png" alt="tornis" id="balts tornis2" class="chess-piece" draggable="true">
         </div>
     </div>
     
