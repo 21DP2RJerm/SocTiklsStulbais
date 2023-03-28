@@ -1,9 +1,32 @@
-const karalis = document.querySelector(".chess-piece")
+// const karalisW = document.querySelector(".chess-piece, ")
+//const karalisB = document.querySelector(".chess-piece, ")
+
+const karalisW = document.getElementById("baltais karalis")
+const karalieneW = document.getElementById("balta karaliene")
+const laidnisW = document.getElementById("balts laidnis")
+const zirgsW = document.getElementById("balts zirgs")
+const tornisW = document.getElementById("balts tornis")
+
+
 const squares = document.querySelectorAll(".square")
 const infoDisplay = document.querySelector("#info")
 
-karalis.addEventListener("drag", dragging)
-karalis.addEventListener("dragstart", dragStart)
+karalisW.addEventListener("drag", dragging)
+karalisW.addEventListener("dragstart", dragStart)
+
+karalieneW.addEventListener("drag", dragging)
+karalieneW.addEventListener("dragstart", dragStart)
+
+laidnisW.addEventListener("drag", dragging)
+laidnisW.addEventListener("dragstart", dragStart)
+
+zirgsW.addEventListener("drag", dragging)
+zirgsW.addEventListener("dragstart", dragStart)
+
+tornisW.addEventListener("drag", dragging)
+tornisW.addEventListener("dragstart", dragStart)
+
+
 
 
 
