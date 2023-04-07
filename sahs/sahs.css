@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center; 
+    flex-direction: column;
+}
+
+#gameboard {
+    display: flex;
+}
+
+.square {
+    display: flex;
+    width: 10vh;
+    height: 10vh;
+}
+
+.chess-piece{
+    display: flex;
+    width: 10vh;
+    height: 10vh;
+    
+}
+
+.melns{
+    background-color: rgb(144, 144, 144);
+}
+
+.balts{
+    background-color: rgb(240, 240, 230);
+}
+
+.highlight{
+    background-color: rgb(9, 219, 72);
+
+}
+

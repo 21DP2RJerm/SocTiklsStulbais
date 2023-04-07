@@ -9,22 +9,32 @@ export default {
 <template>
   <main>
     <div class="centerParent">
-        <input type="text" id="searchUser" name="SearchUsername" required minlength="4" maxlength="24" size="10" placeholder='Search someones "username"'>
+        <div id="searchContainer">
+            <input type="text" id="searchUser" name="SearchUsername" required minlength="4" maxlength="24" size="10" placeholder='Search someones "username"'>
+        </div>
     </div>
   </main>
 </template>
 
 <style>
+    #searchContainer{
+        height: 100vh;
+        width: 1100px;
+        background-color: var(--color-red);
+
+        position: relative;
+    }
+
     #searchUser{
         padding: 8px;
-        width: 500px;
+        margin: 20px;
+        min-width: 700px;
         height: 24px;
 
         border-radius: 10px;
         border: none;
-        position: relative;
-
-        background: var(--color-inputs);
+        position: absolute;
+        left: 200px; 
     }
 
     .centerParent{
@@ -32,11 +42,5 @@ export default {
         margin: 0;
         padding: 0;
         place-items: center;
-    }
-
-    @media screen and (max-width: 608px)  {
-        #searchUser{
-            width: 92vw;
-        }
     }
 </style>

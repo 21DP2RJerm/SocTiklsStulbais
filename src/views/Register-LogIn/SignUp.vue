@@ -39,7 +39,7 @@ export default {
     height: 500px;
     width: 550px;
     border-radius: 20px;
-    background-color: var(--color-container);
+    background-color: var(--color-red);
 
     position: relative;
     top: 200px;
@@ -52,10 +52,10 @@ export default {
     margin: 20px;
     min-width: 200px;
     height: 24px;
+
     border-radius: 10px;
     border: none;
     position: absolute;
-    background: var(--color-inputs);
   }
   #emailInput{top: 7.5rem;}
   #usernameInput{top: 11rem;}
@@ -69,7 +69,6 @@ export default {
     border: none;
     position: absolute;
     top: 25rem;
-    background: var(--color-inputs)
   }
 
   textarea:focus, input:focus{
