@@ -2,9 +2,11 @@
   /* colors for everything */
   --color-red : #BA494B;
   --color-lightpink : #E5CBC1;
-  --color-lightyellow : #F0E7DA;
   --color-blue : #A6B4B3;
   --color-lightgray : #E3E4E0;
+  --color-lightyellow : #ffefcb;
+  --color-middarkyellow : #f6e3ba;
+  --color-almostwhite : #fffde7;
 
   --color-background : var(--color-lightyellow);
 
@@ -35,6 +37,7 @@ body{
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 .font-head{
@@ -52,4 +55,11 @@ body{
   font-family: var(--ff-body);
   font-weight: var(--fw-smallest);
   font-size: var(--fs-smallest);
+}
+.information{
+  
+
+  text-align: center;
+    
+    
 }
