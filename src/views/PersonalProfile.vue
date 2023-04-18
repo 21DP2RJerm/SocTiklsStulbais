@@ -24,22 +24,5 @@ export default {
 </script>
 
 <style>
-  #username{
-    width: 1000px;
-    height: 30px;
-    background-color: var(--color-container);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #profileabout{
-    width: 1000px;
-    min-height: 800px;
-    background-color: var(--color-container);
-  }
-
-  #textHeightChange{
-    font-size: 20px;
-  }
+  
 </style>

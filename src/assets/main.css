@@ -1,3 +1,10 @@
+@import './cssFolder/LogIn.css';
+@import './cssFolder/SignUp.css';
+@import './cssFolder/HomeView.css';
+@import './cssFolder/PersonalProfile.css';
+@import './cssFolder/SearchTab.css';
+
+
 :root{
   /* colors for everything */
   --color-lightyellow : #ffefcb;
