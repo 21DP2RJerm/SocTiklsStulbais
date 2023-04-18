@@ -1,7 +1,13 @@
 <template>
-  <h1>User info</h1>
-  <div v-for="user in userInfo" :key="user.id">
-    <h2>Username: {{ user.username }}<br>Name: {{ user.name }}</h2>
+  <div class="parent">
+    <div v-for="user in userInfo" :key="user.id">
+      <a id="username" class="font-head">{{ user.username }}</a>
+      <div id="profileabout">
+        <a id="ProfileImage"><img src="../components/icons/kristaps.jpg" alt="kristaps" style="width:300px;height:400px;border-radius:30px;"></a><br>
+        <a id="textHeightChange" class="font-head">{{ user.name }}</a><br>
+        <a class="font-regular">{{ user.bio }}</a>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -10,7 +16,7 @@ export default {
     data(){
         return{
             userInfo: [
-                { username: 'Kristzz', name: 'Krists', id: 1},
+                { username: 'Kristzz', name: 'Krists', bio: 'Armīnieks, 18 gadu vecumā ar 20 gadu stāžu dienestā, garšo mellenes, māk apieties ar datoru.', id: 1},
             ]
         }
     }
@@ -18,5 +24,22 @@ export default {
 </script>
 
 <style>
+  #username{
+    width: 1000px;
+    height: 30px;
+    background-color: var(--color-container);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
+  #profileabout{
+    width: 1000px;
+    min-height: 800px;
+    background-color: var(--color-container);
+  }
+
+  #textHeightChange{
+    font-size: 20px;
+  }
 </style>
