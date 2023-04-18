@@ -8,12 +8,14 @@ export default {
 
 <template>
   <main>
-    <div class="home">
-      <h1>Homepage</h1>
+    <div class="Logo">
+      <a id="logo" class="font-head ">Checkmate</a>
     </div>
   </main>
 </template>
 
 <style>
-
+.logo{
+  text-align: center;
+}
 </style>
