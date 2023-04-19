@@ -70,5 +70,47 @@ export default {
         position: absolute;
         border-radius: 10px;
     }
+
+
+    @media screen and (max-width: 608px){
+        #searchContainer{
+        height: 100vh;
+        width: 80%;
+        background-color: #f6e3ba;
+
+        position: relative;
+        border-radius: 10px;
+    }
+
+    #searchUser{
+        padding: 8px;
+        margin: 20px;
+        min-width: 80%;
+        height: 24px;
+
+        border-radius: 10px;
+        border: none;
+        position: absolute;
+        left: 3%; 
+    }
+
+    .centerParent{
+        display: grid;
+        margin: 0;
+        padding: 0;
+        place-items: center;
+    }
+    #suggestions{
+        padding: 8px;
+        margin: 20px;
+        top: 50px;
+        width: 80%;
+        height: 70px;
+        background-color: white;
+        left:3%;
+        position: absolute;
+        border-radius: 10px;
+    }
+    }
     
 </style>
