@@ -10,12 +10,9 @@
   <main>
     <div id="parent">
       <div id="mainContainer">
-        <input type="email" id="emailInput" class="usernameAndPasswordStyling" name="Email" placeholder="youremail@example.com" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required />
+        <input type="text" id="usernameInput" class="usernameAndPasswordStyling" name="Username" required minlength="4" maxlength="24" size="10" placeholder="Username">
         <input type="password" id="passwordInput" class="usernameAndPasswordStyling" name="Password" required minlength="8" maxlength="50" size="10" placeholder="Password">
         <button id="signUpButton">Log In</button>
-        <Router-link :to="{ name: 'signup' }">
-          <a id="RegisterInstead" class="font-small" style="text-decoration: none;">Register instead</a>
-        </Router-link>
       </div>
     </div>
   </main>
@@ -25,7 +22,6 @@
     body{
     background : var(--color-background);
   }
-
   #parent{
     display: grid;
     place-items: center;
@@ -37,7 +33,7 @@
     height: 500px;
     width: 550px;
     border-radius: 20px;
-    background-color: var(--color-container);
+    background-color: var(--color-red);
 
     position: relative;
     top: 200px;
@@ -67,21 +63,6 @@
     top: 25rem;
   }
 
-  #signUpButton:hover{
-    background: var(--color-lightyellow);
-  }
-
-  #RegisterInstead{
-    position: absolute;
-    top: 360px;
-    left: 230px;
-    text-decoration: none;
-    color: black;
-  }
-  #RegisterInstead:hover{
-    color: blue;
-  }
-
   textarea:focus, input:focus{
     outline: none;
   }
@@ -99,11 +80,6 @@
 
     #usernameInput{top: 16rem;}
     #passwordInput{top: 19.5rem;}
-
-    #RegisterInstead{
-      top: 30rem;
-      left: 39%; /*sito jasataisa normali vel */
-    }
 
     #signUpButton{
       width: 160px;

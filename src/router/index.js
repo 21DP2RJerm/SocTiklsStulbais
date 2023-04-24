@@ -6,8 +6,6 @@ import searchTab from '../views/SearchTab.vue'
 import LogIn from '../views/Register-LogIn/LogIn.vue'
 import SignUp from '../views/Register-LogIn/SignUp.vue'
 
-import Chess from '../views/Chess.vue'
-
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -35,11 +33,6 @@ const router = createRouter({
       path: '/search',
       name: 'search',
       component: searchTab
-    },
-    {
-      path: '/chess',
-      name: 'chess',
-      component: Chess
     },
 
   ]
