@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="toolbar.css">
+  
+</head>
+<body>
+    <nav>
+        <div class="toolbar">
+            <ul class="container">
+                <li class="item">
+                    <a href="#" class="item-link">
+                        <div class="item-icon">
+                            <img src="home.png" alt="home.png" class="icon home">
+                        </div>
+                        <span class="item-text">Home</span>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="#" class="item-link">
+                        <div class="item-icon">
+                            <img src="search.png" alt="search.png" class="icon search">
+                        </div>
+                        <span class="item-text">Search</span>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="#" class="item-link">
+                        <div class="item-icon">
+                            <img src="pfp.png" alt="pfp.png" class="icon pfp">
+                        </div>
+                        <span class="item-text">Profile</span>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="#" class="item-link">
+                        <div class="item-icon">
+                            <img src="126472.png" alt="126472.png" class="icon settings">
+                        </div>
+                        <span class="item-text">Profile</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <script>
+        const list=document.querySelectorALL(".item");
+        list.forEach((item)=>{
+            item.addEventListener("click",()=>{
+                list.forEach((item)=> item.classList.remove("active"));
+                item.classList.add("active");
+            })
+        })
+    </script>
+
+</body>
+</html>
