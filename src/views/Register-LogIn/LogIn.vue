@@ -1,6 +1,7 @@
 <script>
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth'
 import { useRouter } from 'vue-router'
+import toolbar from '/src/components/Toolbar.vue';
 
 export default {
   setup() {
@@ -16,7 +17,8 @@ export default {
       }
     }
     return { handleSubmit }
-  }
+  },
+  components: {toolbar}
 }
 </script>
 
@@ -39,6 +41,9 @@ export default {
       </div>
     </div>
   </main>
+  <toolbar>
+
+  </toolbar>
 </template>
 
 <style>

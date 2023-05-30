@@ -1,8 +1,8 @@
 <script>
+import toolbar from '/src/components/Toolbar.vue';
+
 export default {
-  setup() {
-    
-  },
+  components: {toolbar}
 }
 </script>
 
@@ -12,6 +12,10 @@ export default {
       <h1>Homepage</h1>
     </div>
   </main>
+
+  <toolbar>
+
+  </toolbar>
 </template>
 
 <style>
